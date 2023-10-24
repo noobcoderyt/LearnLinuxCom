@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Vim</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans&family=Roboto&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background: linear-gradient(45deg, #39c2c7 0%, #b4f3f5 100%);
+            line-height: 1.6;
+        }
+
+        #head1 {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        img {
+            border: 5px solid black;
+        }
+
+        #button1 {
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            border: 3px solid black;
+            padding: 10px;
+            border-radius: 10px;
+            border: none;
+            width: 50x;
+            height: 25px;
+            color: aliceblue;
+            background-color: black;
+            cursor: pointer;
+        }
+
+        #button1:hover {
+            background-color: white;
+            color: black;
+            transition-delay: 10ms;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="head1">
+        <h1>
+            Learn Vim - The Text Editor
+        </h1>
+    </div>
+
+    <div>
+        <div>
+            <p>
+                In this Article you are going to learn how to use Vim. It is a text editor which can be used in
+                terminal.
+                If you use Linux then learning Vim is an essential. You can use Vim to edit system config files and
+                settings deeply and fastly.</p>
+        </div>
+
+        <div>
+            <p>
+                To use use Vim, you first need to download vim. To do so, type 'sudo apt update' and then 'sudo apt
+                install vim'. After vim is installed, you can open it by simply running the command 'vim'. If you want
+                to edit a specific file, type 'vim filename'.
+            </p>
+            <img src="images/vim1.png" alt="vim-command">
+        </div>
+
+        <div>
+            <p>
+                To type something, press the key 'i' on your keyboard. It will turn on insert mode and you will be able
+                to type in vim. Once you are done writing your code/text, press the 'esc' key on your keyboard. Then
+                type ':wq filename'. If you were editing a file you can just type ':wq'. w means save and q means quit.
+            </p>
+            <img src="images/vim2.png" alt="vim-command">
+        </div>
+
+        <div>
+            <p>
+                Congratulations! You have successfully learned the basics of vim and now you can edit any files you
+                want. If you are having trouble editing system files, try 'sudo vim filename' :)
+            </p>
+        </div>
+
+    </div>
+
+    <div class="next">
+        <a href="gamingonlinux.html" id="button1">Next -></a>
+    </div>
+
+</body>
+
+</html>
