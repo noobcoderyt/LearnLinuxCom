@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Terminal Commands</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans&family=Roboto&display=swap" rel="stylesheet">
+
+    <style>
+        img {
+            border: 5px solid black;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div>
+        <h1 id="head1">Basic Terminal Commands</h1>
+    </div>
+
+    <div>
+
+        <div>
+            <p>In this article you will learn about the basic terminal commands on Linux. Linux is known for its
+                powerful commandline. Even if you don't have a GUI you can still use commandline to do all the work.</p>
+        </div>
+
+        <div>
+            <p>
+                The first command is 'ls' which lists all the directories(folders) at your location.
+            </p>
+            <img src="images/ls.png" alt="ls-command">
+        </div>
+
+        <div>
+            <p>
+                The second command is 'pwd' which means 'print working directory'. It shows the path of the directory
+                you are at. When you open the terminal, the default directory is /home/username
+            </p>
+            <img src="images/pwd.png" alt="pwd-command">
+        </div>
+
+        <div>
+            <p>
+                The third command is 'chmod +x filename'. It is used to give executable permissions to a file. If you
+                ever get an error that a file is not executable, just run this command. This command can only be run as
+                sudo, which is superuser.
+            </p>
+            <img src="images/chmod.png" alt="chmod-command">
+        </div>
+
+        <div>
+            <p>
+                The Fourth command is 'git clone reponame'. It is used to copy a github repository into your computer.
+                It is usually used when we are installing an open-source software. For example, hollywood.
+            </p>
+            <img src="images/gitclone.png" alt="gitclone-command">
+        </div>
+
+        <div>
+            <p>
+                The Fifth command is 'cd directory'. It is used to go inside a folder. Lets say that we are in
+                /home/username and we want to go inside the downloads folder. We will simply write 'cd Downloads/' to go
+                inside the folder. To get back to your previous directory, simply type 'cd ..'
+            </p>
+            <img src="images/cd.png" alt="cd-command">
+        </div>
+
+        <div>
+            <p>
+                Another useful command is 'history' which shows you a list of commands you have ran. So be careful not
+                to type your passwords in terminal as a command.
+            </p>
+            <img src="images/history.png" alt="history-command">
+        </div>
+
+        <div>
+            <h2 id="head2">Downloading Packages</h2>
+            <p>
+                If you want to download a package or software, for example discord, there are different commands for
+                different distributions. On Debian based distros like Ubuntu and Linux Mint its 'sudo apt install
+                packagename'. On Fedora its 'sudo dnf install packagename'. On Arch its "sudo pacman -S packagename". So
+                you have to run the command for your distribution.
+            </p>
+        </div>
+
+        <div>
+            <h2 id="head2">Upgrading System</h2>
+            <p>
+                Upgrading System has the same case as downloading packages, i.e. there are different commands for
+                different distributions. On Debian based it is 'sudo apt upgrade'. On Arch its "sudo pacman -Syu". If
+                you are using a different distribution you can check its command.
+            </p>
+        </div>
+
+        <div>
+            <p>
+                Congratulations! You have successfully learned the basics commands of Linux terminal! :)
+            </p>
+        </div>
+
+    </div>
+
+    <div class="next">
+        <a href="vim.html" id="button1">Next -></a>
+    </div>
+
+
+</body>
+
+</html>
